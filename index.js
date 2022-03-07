@@ -107,9 +107,9 @@ load(target, 0);
 // 无级分类
 
 //同步的写入
-// fs.writeFileSync("./directoryTree.txt",str);
+// fs.writeFileSync("./directoryTree.md",str);
 //同步的追加，采用同步追加，避免目录结构错乱
-// fs.appendFileSync("./directoryTree.txt",str);
+// fs.appendFileSync("./directoryTree.md",str);
 // fs.wirteFile有三个参数
 // 1,第一个参数是要写入的文件路径
 // 2,第二个参数是要写入得内容
@@ -118,7 +118,7 @@ load(target, 0);
 //如果在使用fs.writeFIle时,要写入文件不存在,则直接写入,如果存在,则会覆盖原内容
 
 function appendToTxt(text) {
-  fs.appendFileSync("./directoryTree.txt", `${text}\n`, (error) => {
+  fs.appendFileSync("./directoryTree.md", `${text}\n`, (error) => {
     if (error) return console.log("写入文件失败,原因是" + error.message);
     console.log("写入成功");
   });
