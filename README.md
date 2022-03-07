@@ -11,6 +11,17 @@ A javascript to build a directory tree.
 ```
 node index.js
 ```
+同时，终端控制台会显示执行进度、目录结构及文件数量统计
+```
+folder: 7
+file: 6
+txt 格式文件: 1 份
+js 格式文件: 3 份
+json 格式文件: 1 份
+html 格式文件: 1 份
+The directory tree was built successfully!! 
+Total time: 5.58ms
+```
 ## Demo
 
 当前仓库所生成的目录为
