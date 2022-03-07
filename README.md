@@ -13,6 +13,8 @@ node index.js
 ```
 ## Demo
 
+当前仓库所生成的目录为
+
 ```
 root
 ├─server
