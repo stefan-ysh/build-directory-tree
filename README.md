@@ -2,16 +2,16 @@
 
 ## Description
 
-可以用来快速获取当前目录结构并生成结构树.
-A javascript to build a directory tree.
+常常在写 `markdown` 文档的时候，需要对一些项目的目录结构进行描述，但每次都是复制别人的目录文本进行更改，后来找了一下，虽然有一些 `npm` 包可以解决，但确实不想因为这个再多下载一个包，于是就想着自己写一写，这就是本仓库诞生的原因.
+
 
 ## Usage
 
-将 `index.js` 文件放到像生成目录结构的目录下，控制台 `node index.js` 即可生成，并会自动写入 `directoryTree.txt` 文件中。
+将 `index.js` 文件放到想生成目录结构的目录下，打开终端控制台执行 `node index.js` 即可生成，并会自动写入 `directoryTree.txt` 文件中，同时，终端控制台会显示执行进度、目录结构及文件数量统计
+
 ```
 node index.js
 ```
-同时，终端控制台会显示执行进度、目录结构及文件数量统计
 ```
 folder: 7
 file: 6
