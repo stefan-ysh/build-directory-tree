@@ -26,6 +26,7 @@ Total time: 5.58ms
 
 - 原生 js 实现，不依赖任何插件
 - 智能忽略 `node_modules` 文件夹
+- 附带目录统计功能
 - 后期考虑做成 vscode 插件
 
 ## Demo
