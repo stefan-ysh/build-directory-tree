@@ -7,7 +7,7 @@
 
 ## Usage
 
-将 `index.js` 文件放到想生成目录结构的目录下，打开终端控制台执行 `node index.js` 即可生成，并会自动写入 `directoryTree.txt` 文件中，同时，终端控制台会显示执行进度、目录结构及文件数量统计
+将 `index.js` 文件放到想生成目录结构的目录下，打开终端控制台执行 `node index.js` 即可生成，并会自动写入 `directoryTree.md` 文件中，同时，终端控制台会显示执行进度、目录结构及文件数量统计
 
 ```
 node index.js
@@ -15,7 +15,7 @@ node index.js
 ```
 folder: 7
 file: 6
-txt 格式文件: 1 份
+md 格式文件: 1 份
 js 格式文件: 3 份
 json 格式文件: 1 份
 html 格式文件: 1 份
@@ -45,7 +45,7 @@ root
 │ └─app.js
 ├─web
 │ └─index.html
-├─directoryTree.txt
+├─directoryTree.md
 ├─index.js
 └─package.json
 ```
