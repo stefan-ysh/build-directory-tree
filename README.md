@@ -22,6 +22,12 @@ html 格式文件: 1 份
 The directory tree was built successfully!! 
 Total time: 5.58ms
 ```
+## Feature
+
+- 原生 js 实现，不依赖任何插件
+- 智能忽略 `node_modules` 文件夹
+- 后期考虑做成 vscode 插件
+
 ## Demo
 
 当前仓库所生成的目录为
